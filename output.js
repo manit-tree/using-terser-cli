@@ -1,0 +1,1 @@
+let Dog=class{constructor(name){this.name=name}walk(){console.log(this.name+" is walking!")}};document.addEventListener("DOMContentLoaded",(()=>{new Dog("Peter").walk()}));
